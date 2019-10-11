@@ -1,0 +1,30 @@
+@import '~bulma/sass/utilities/_all.sass';
+@import '_variables.scss';
+.container {
+    section {
+        .columns {
+            .column {
+                .card {
+                    .card-content {
+                        .media-content {
+                            text-align: center;
+                            .title {
+                                color: $primaryColor;
+                            }
+                            .sub-title {
+                                padding-bottom: 10px;
+                                text-transform: capitalize;
+                            }
+                            .add-cart-btn {
+                                background-color: $primaryColor;
+                                color: $secondaryColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import '~bulma';
